@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+}
+
+.subscriber_container, .topic_container {
+  min-height: 200px;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  text-align: center;
+  align-content: center;
+}
+
+.topic_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic {
+  color: #fff;
+  background: grey;
+  padding: 10px 20px;
+  border-radius: 3px;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.subscriber_title {
+  color: #fff;
+  background: grey;
+  padding: 10px 20px;
+  border-radius: 3px;
+  max-width: 200px;
+}
+
+.topic_btn, .subscriber_btn {
+  color: #fff;
+  background: lightcoral;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.publish_btn {
+  color: #fff;
+  background: lightcoral;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.publish_btn--disable {
+  background: lavenderblush;
+}
+
+.publisher, .subscriber {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  align-items: center;
+}
